@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMARAN FRAKSI DESA LIFE</title>
+    
+
+<h1>LAMARAN FRAKSI</h1>
+
+<body>
+
+<form action="" method="post" onsubmit="return submitForm()">
+    <label for="nama">NAMA IC:</label><br>
+    <input type="text" id="nama" name="nama"><br>
+    
+    <label for="cita_cita">NAMA FRAKSI:</label><br>
+    <input type="text" id="cita_cita" name="cita_cita"><br>
+    
+    <label for="tempat_tinggal">SEBUTKAN 5 BR </label><br>
+    <input type="text" id="tempat_tinggal" name="tempat_tinggal"><br>
+    
+    <label for="buah_kesukaan">ALASAN INGIN MASUK FRAKSI TERSEBUT:</label><br>
+    <input type="text" id="buah_kesukaan" name="buah_kesukaan"><br>
+    
+    <button type="submit">LAMAR</button>
+</form>
+
+<script>
+    function submitForm() {
+        var nama = document.getElementById("nama").value;
+        var citaCita = document.getElementById("cita_cita").value;
+        var tempatTinggal = document.getElementById("tempat_tinggal").value;
+        var buahKesukaan = document.getElementById("buah_kesukaan").value;
+
+        var link = "https://api.whatsapp.com/send?phone=6282312578285&text=LAMARAN FRAKSI‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ++NAMA+IC+SAYA:*"+nama + "‎‎* ‎ SAYA MAU JOIN‎ *" + citaCita + "‎* ‎ LIST BR: *" + tempatTinggal + "‎* .ALASAN SAYA MAU JOIN FRAKSI TERSEBUT ADALAH:‎ *" + buahKesukaan + "*!";
+        window.location = link;
+
+        return false;
+    }
+</script>
+
+</body>
+</html>
+
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 0px;
+        }
+        form {
+            width: 290px;
+            margin: 0 auto;
+            background-color: #;
+            padding: 200lpx;
+            border-radius: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            color: red; /* set the text color of the input field to red */
+        }
+        label {
+            animation: colorBlink 3s infinite;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @keyframes colorBlink {
+          0%, 100% { color: #ff0000; text-shadow: 0 0 20px #ff0000; }
+          33% { color: #00ffee; text-shadow: 0 0 20px #00ffee; }
+          66% { color: #00ff00; text-shadow: 0 0 20px #00ff00; }
+        }
+    </style>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-image: url('https://pin.it/6jGrLe9VR');');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @keyframes colorBlink {
+      0%, 100% { color: #ff0000; text-shadow: 0 0 20px #ff0000; }
+      33% { color: #00ffee; text-shadow: 0 0 20px #00ffee; }
+      66% { color: #00ff00; text-shadow: 0 0 20px #00ff00; }
+    }
+
+    h1 {
+      animation: colorBlink 3s infinite;
+    }
+  </style>
+  
+  <style>input {
+  background-color: #00000000;
+  color: ##00000000; /* Ini untuk mengubah warna teks menjadi putih agar kontras dengan latar belakangnya */
+}
+</style>
